@@ -1,0 +1,101 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{text-decoration: none;
+    color:black
+}
+table{
+    width: 100%;
+}
+table h2{
+    display: inline;
+    padding-left: 5px;
+}
+table img{
+    margin-left: 25px;
+}
+#jack{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+button{
+    color: white;
+    background-color: rgb(85, 148, 85);
+    border:none;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+#container{
+    width: 100%;
+    background-color: rgb(85, 148, 85);
+    
+}
+h1,p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+#header{
+    color: black;
+}
+#pic-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-right: 160px;
+}
+.pic-card{
+    background-color:rgb(85, 148, 85) ;
+    width: 400px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+}
+.pic-card img{
+    width: 50px;
+    height: 50px;
+    /* margin: 25px; */
+
+    
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.light{
+    color: white;
+    background-color: rgb(109, 177, 109);
+    border:none;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    margin-left: 90px;
+    cursor: pointer;
+}
+b{
+    color:rgb(55, 87, 55) ;
+    font-weight: 900;
+    margin-left: 20px;
+}
+.img{
+    width: 300px;
+    height: 70px;
+    background-color:rgb(55, 87, 55) ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.img img{
+    margin-top: 15px;
+
+}
